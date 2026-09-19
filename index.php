@@ -6,9 +6,30 @@
     <title>Document</title>
 
 <link rel="stylesheet" href="styles.css">
+<style>
+    .seccion {
+        padding: 20px 40px;
+        background-color: lightgreen;
+        margin: 20px;
+        border: 10px solid black;
+    }
+</style>    
+
+<style>
+    .seccion2 {
+        padding: 20px;
+        background-color: pink;
+        margin: 20px;
+        margin-left: 50px;
+        margin-right: 30px;
+        margin-bottom: 40px;
+
+    }
+</style>
 
 </head>
 <body>
+
 
 <div>
     <!-- las etiquetas h vienen en heading, que significa encabezado o titulo. -->
@@ -27,5 +48,26 @@
 
         <p> Este es el contenido de esta seccion </p>
     </div>
+   
+    <div class="seccion">
+    
+    <h2> Titulo de Parrafo </h2>
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+         Veritatis beatae repudiandae laboriosam
+         nemo itaque amet sequi blanditiis exercitationem,
+         fugit doloremque necessitatibus libero perspiciatis 
+         nisi commodi velit at labore ullam similique! </p>
+    </div>    
+
+        <div class="seccion2">
+    
+    <h2> Titulo de Parrafo </h2>
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+         Veritatis beatae repudiandae laboriosam
+         nemo itaque amet sequi blanditiis exercitationem,
+         fugit doloremque necessitatibus libero perspiciatis 
+         nisi commodi velit at labore ullam similique! </p>
+    </div>
+
 </body>
 </html>
