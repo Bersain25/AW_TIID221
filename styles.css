@@ -1,0 +1,12 @@
+    h1 {
+        color: red;
+        /*Cambiar el color */
+        font-size: 100px;
+        /*Cambiar el tamaño del texto */
+        text-align: center;
+        /*Sirve para colocar el texto en una posicion */
+        text-decoration: underline;
+        /*Sirve para decorar el texto */
+        font-weight: bold;
+        /*Sirve para cambiar el grosor del texto */
+    }
